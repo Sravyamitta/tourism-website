@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+nav {
+    background-color: #894a4a;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #3d34b9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#date-time {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    padding: top 5px;;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.featured-deals {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.deal {
+    text-align: center; 
+    flex: 1; 
+}
+
+.deal img {
+    width:350px;
+    height:300px
+    
+    
+}
+.deal p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* General Form Styling */
+form {
+    background-color: #f4f4f488;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* margin: 20px 0; */
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button,
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for Passenger Form */
+#passengerForm {
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#passengerIcon {
+    background-color: #28a745;
+    color: white;
+}
+
+#passengerIcon:hover {
+    background-color: #218838;
+}
+
+/* Ensure the form elements are aligned properly */
+form label,
+form input,
+form select,
+form button {
+    display: block;
+    width: 100%;
+}
+
+
+.flight-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #28a745;
+}

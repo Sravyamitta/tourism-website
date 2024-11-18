@@ -1,0 +1,125 @@
+{
+    "hotels": [
+      {
+        "hotel-id": 1,
+        "hotel-name": "Sunset Boulevard Hotel",
+        "city": "Dallas",
+        "price-per-night": 200
+      },
+      {
+        "hotel-id": 2,
+        "hotel-name": "Downtown Delight",
+        "city": "San Francisco",
+        "price-per-night": 230
+      },
+      {
+        "hotel-id": 3,
+        "hotel-name": "Seaside Sanctuary",
+        "city": "San Diego",
+        "price-per-night": 210
+      },
+      {
+        "hotel-id": 4,
+        "hotel-name": "Suburban Stay",
+        "city": "Dallas",
+        "price-per-night": 160
+      },
+      {
+        "hotel-id": 5,
+        "hotel-name": "Beachfront Bliss",
+        "city": "Santa Monica",
+        "price-per-night": 240
+      },
+      {
+        "hotel-id": 6,
+        "hotel-name": "City Center Inn",
+        "city": "Austin",
+        "price-per-night": 190
+      },
+      {
+        "hotel-id": 7,
+        "hotel-name": "Tech Hub Hotel",
+        "city": "San Jose",
+        "price-per-night": 220
+      },
+      {
+        "hotel-id": 8,
+        "hotel-name": "Bay Area Beauty",
+        "city": "Oakland",
+        "price-per-night": 180
+      },
+      {
+        "hotel-id": 9,
+        "hotel-name": "Wine Country Inn",
+        "city": "Napa",
+        "price-per-night": 250
+      },
+      {
+        "hotel-id": 10,
+        "hotel-name": "Historic Haven",
+        "city": "Sacramento",
+        "price-per-night": 170
+      },
+      {
+        "hotel-id": 11,
+        "hotel-name": "Desert Oasis",
+        "city": "Palm Springs",
+        "price-per-night": 210
+      },
+      {
+        "hotel-id": 12,
+        "hotel-name": "Capitol Comfort",
+        "city": "Sacramento",
+        "price-per-night": 200
+      },
+      {
+        "hotel-id": 13,
+        "hotel-name": "Silicon Valley Stay",
+        "city": "Palo Alto",
+        "price-per-night": 300
+      },
+      {
+        "hotel-id": 14,
+        "hotel-name": "South Texas Sanctuary",
+        "city": "San Antonio",
+        "price-per-night": 180
+      },
+      {
+        "hotel-id": 15,
+        "hotel-name": "Historic Charm Hotel",
+        "city": "Galveston",
+        "price-per-night": 150
+      },
+      {
+        "hotel-id": 16,
+        "hotel-name": "Rodeo Drive Retreat",
+        "city": "Beverly Hills",
+        "price-per-night": 320
+      },
+      {
+        "hotel-id": 17,
+        "hotel-name": "Lakeside Luxury",
+        "city": "Fort Worth",
+        "price-per-night": 170
+      },
+      {
+        "hotel-id": 18,
+        "hotel-name": "Eco-Friendly Retreat",
+        "city": "Austin",
+        "price-per-night": 210
+      },
+      {
+        "hotel-id": 19,
+        "hotel-name": "Downtown Luxury",
+        "city": "Houston",
+        "price-per-night": 200
+      },
+      {
+        "hotel-id": 20,
+        "hotel-name": "Metropolitan Hotel",
+        "city": "Los Angeles",
+        "price-per-night": 220
+      }
+    ]
+  }
+  
