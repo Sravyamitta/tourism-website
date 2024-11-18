@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Deals - Flights</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="date-time"></div><br/>
+        
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stays.html">Stays</a></li>
+            <li><a href="flights.html">Flights</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="cruises.html">Cruises</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html">View Cart</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="sidebar">
+            <h2>Settings</h2>
+            <ul>
+                <li><label for="fontSize">Font Size:</label></li>
+                <li><input type="range" id="fontSize" min="10" max="30" value="16"></li>
+                <li><label for="bgColor">Background Color:</label></li>
+                <li><input type="color" id="bgColor" value="#ffffff"></li>
+            </ul>
+        </div>
+        <main id="mainContent">
+            <h1>Cruises</h1>
+            <form id="cruisesForm">
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="Alaska">Alaska</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Mexico">Mexico</option>
+                </select><br>
+
+                <label for="departingBetween">Departing Between:</label>
+                <input type="date" id="departingBetween" name="departingBetween" required><br>
+
+                <label for="durationMin">Duration (Min):</label>
+                <input type="number" id="durationMin" name="durationMin" min="3" max="10" required><br>
+
+                <label for="durationMax">Duration (Max):</label>
+                <input type="number" id="durationMax" name="durationMax" min="3" max="10" required><br>
+
+                <label for="numPassengers">Number of Passengers:</label>
+                <input type="number" id="numPassengers" name="numPassengers" min="1" max="2" required><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <p>SRAVYA MEGHANA MITTA-smm230008</p>
+        <p>ABHINAV SANTHOSH-axs230311</p>
+        <p>CS 6314.0U1 - Web Programming Languages - Su24</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script src="cruises.js" defer></script>
+</body>
+
+
+</html>
