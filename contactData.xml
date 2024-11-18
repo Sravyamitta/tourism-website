@@ -1,0 +1,49 @@
+<Contacts><Contacts><Contacts><Contacts><?xml version="1.0"?>
+<ContactData>
+  <FirstName>HARSHA VARDHAN CHOWDARY</FirstName>
+  <LastName>VUNDAVALLI</LastName>
+  <Phone>(945) 278-7389</Phone>
+  <Email>sunnyvundavalli@gmail.com</Email>
+  <Comment>qwefghgdsfgbhgrfefdb</Comment>
+  <Gender>male</Gender>
+<?xml version="1.0"?>
+
+  <Contact>
+    <FirstName>HARSHA VARDHAN CHOWDARY</FirstName>
+    <LastName>VUNDAVALLI</LastName>
+    <Phone>(945) 278-7389</Phone>
+    <Email>sunnyvundavalli@gmail.com</Email>
+    <Comment>ewrtjhtgrwqdefrgbth</Comment>
+    <Gender>male</Gender>
+  </Contact>
+</Contacts><?xml version="1.0"?>
+
+  <Contact>
+    <FirstName>Sravya</FirstName>
+    <LastName>Mitta</LastName>
+    <Phone>(946) 516-5151</Phone>
+    <Email>srav@gmail.com</Email>
+    <Comment>wqertrytrqdsfe</Comment>
+    <Gender>female</Gender>
+  </Contact>
+</Contacts><?xml version="1.0"?>
+
+  <Contact>
+    <FirstName>Abhinav</FirstName>
+    <LastName>Santhosh</LastName>
+    <Phone>(747) 288-4707</Phone>
+    <Email>abhinavofficial232001@gmail.com</Email>
+    <Comment>dxrhnkjlioiunkjhb</Comment>
+    <Gender>male</Gender>
+  </Contact>
+</Contacts><?xml version="1.0"?>
+
+  <Contact>
+    <FirstName>Sravya</FirstName>
+    <LastName>Mitta</LastName>
+    <Phone>(945) 274-5678</Phone>
+    <Email>srav@gmail.com</Email>
+    <Comment>ssfdtrsdfghjhgfd</Comment>
+    <Gender>female</Gender>
+  </Contact>
+</Contacts>
